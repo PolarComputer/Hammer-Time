@@ -386,7 +386,7 @@ export class Hammer {
       - (STRING) => will be structured like examples above as string
   */
   toString( _End ) {
-    if ( _End && !(_End instanceof Hammer) && Hammer.isHammer( b ) ) {
+    if ( _End && !(_End instanceof Hammer) && Hammer.isHammer( _End ) ) {
       _End = new Hammer( _End );
     }
     if ( _End && _End instanceof Hammer ) {
