@@ -12,10 +12,12 @@ Installation is super simple if you are using ES6 Javascript Modules. Just use t
 ``` Javascript
 import { Hammer } from 'hammer-time.js';
 ```
-
+[ JS Deliver CDN ](https://www.jsdelivr.com/package/gh/PolarComputer/Hammer-Time)
+<br>
 
 
 <hr>
+<br>
 
 ## Time String Format
 Very commonly within the Hammer Library you can use what we refer to a Time Strings, instead of a full Hammer Object. For example, your can use the Hammer Library to sort a list of strings that are in a valid Time String format, or you can check if a Hammer Object Time is between two Time Strings. A time string is written in the 24-hour, military time, format. In notation this is commonly written as `hh:mm`. Where the `hh` is hours (00-24), since the start of the day. Hammer treats both hour `00` and `24`, therefore `"00:18"` => `"12:18am"`. The `mm` is the minutes (00-59), and `60` would be treated as a new hour. Hammer doesn't recognize seconds, if you need something with that accuracy Hammer is not the library for you. In our time format if the number is less than 10, you must add a leading zero. You can use the static method `Hammer.isHammer( String )`, to verify if your Time String is valid within Hammer. This will return a boolean. HTML time inputs, should all automatically be valid.
@@ -51,12 +53,16 @@ var foo = new Hammer( "1:00" );
     Hammer.isHammer( foo );     // true
 
 ```
+<br>
 
 <hr>
+
+<br>
 
 ## Methods
 Here are some of the basic function that you can use inside Hammer. If you have an idea for more stuff to add, feel free to fork us, and push your changes back in.
 
+<br>
 
 
 ### Create New Object
@@ -296,12 +302,16 @@ var foo = new Hammer( "12:59" );    // time set to 12:59
     foo.subtract( 10, "hours" );    // time set to 23:00
 ```
 
+<br>
 
 <hr>
+
+<br>
 
 ## Comparisons Methods
 These comparisons methods, will allow you to do, a lot. You can compare a Hammer Object and another Hammer Object or a Time String. We will show you how you can sort a list of Time String or Hammer Objects.
 
+<br>
 
 ### Equal Comparisons
 This will check to see if `this` and a Time String or Hammer Object are equal, or the same time. You can either pass it a Time String or a Hammer Object.
@@ -420,8 +430,11 @@ var hammerArray2 = [ "12:00", "13:00", "8:00", "7:58" ];
 hammerArray1.sort( Hammer.compareTo );
 hammerArray2.sort( Hammer.compareTo );
 ```
+<br>
 
 <hr>
+
+<br>
 
 ## License
 ```
