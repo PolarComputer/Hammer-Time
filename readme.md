@@ -1,4 +1,4 @@
-parameter[![](https://data.jsdelivr.com/v1/package/gh/PolarComputer/Hammer-Time/badge)](https://www.jsdelivr.com/package/gh/PolarComputer/Hammer-Time)
+[![](https://data.jsdelivr.com/v1/package/gh/PolarComputer/Hammer-Time/badge)](https://www.jsdelivr.com/package/gh/PolarComputer/Hammer-Time)
 
 # Hammer Time Library
 A super simple time based project. This time library allows you to add, subtract; hours and minuntes to Hammer Object. Which are structured like "hh:mm", like "18:26". This library doesn't require Moment, however it was build to work well with it. We designed Hammer, because we were using HTML time inputs, and there wasn't an easy way to manipulate them. So we build this simple library.<br>
