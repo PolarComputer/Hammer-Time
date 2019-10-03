@@ -1,7 +1,11 @@
 # Hammer Time Library
-A super simple time based project. This library doesn't require Moment, however it was build to work well with it. We designed Hammer, because we were using HTML time inputs, and there wasn't an easy way to manipulate them. So we build this simple library.<br>
+A super simple time based project. This time library allows you to add, subtract; hours and minuntes to Hammer Object. Which are structured like "hh:mm", like "18:26". This library doesn't require Moment, however it was build to work well with it. We designed Hammer, because we were using HTML time inputs, and there wasn't an easy way to manipulate them. So we build this simple library.<br>
+
+<br>
 Designed by Polar Computers Inc. for the Pace Productivity Suite<br>
 Written by Evan Sellers <sellersew@gmail.com>, September 2019
+<br>
+<br>
 
 ## Installation
 Installation is super simple if you are using ES6 Javascript Modules. Just use the simple import command. However if you aren't using this method, you should still be able to use no-Module based Javascript, but it wasn't designed for this.
