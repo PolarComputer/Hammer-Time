@@ -466,7 +466,12 @@ SOFTWARE.
 
 ```
 
+## FIXME
+ - Everything should return the Hammer Object and not a string or number
+ - Don't reset hour `24` to `00`
+
 ## Things to add
+ - Make toString a static function as well as a method
  - Set the time using a Time String with AM or PM
  - Testing JS Script
 
