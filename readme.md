@@ -4,7 +4,7 @@
 A super simple time based project. This time library allows you to add, subtract; hours and minuntes to Hammer Object. Which are structured like "hh:mm", like "18:26". This library doesn't require Moment, however it was build to work well with it. We designed Hammer, because we were using HTML time inputs, and there wasn't an easy way to manipulate them. So we build this simple library.<br>
 
 <br>
-Designed by Polar Computers Inc. for the Pace Productivity Suite<br>
+Designed by Sellers Industry for the Pace Productivity Suite<br>
 Written by Evan Sellers <sellersew@gmail.com>, September 2019
 <br>
 <br>
@@ -442,8 +442,8 @@ hammerArray2.sort( Hammer.compareTo );
 ```
 MIT License
 
-Copyright (c) 2019 Polar Computers Inc.
-Designed by Polar Computers Inc. for Pace Productivity Suite
+Copyright (c) 2019 Sellers Industry
+Designed by Sellers Industry for Pace Productivity Suite
 Written by Evan Sellers, <sellersew@gmail.com>, September 2019
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
