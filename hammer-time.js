@@ -1,5 +1,5 @@
 /* Hammer Time - time library (v1.0.0)
- * Copyright (C) Polar Computers Inc. - All Rights Reserved (Project Pace)
+ * Copyright (C) Sellers Industry - All Rights Reserved (Project Pace)
  * MIT License
  * Written by Evan Sellers <sellersew@gmail.com>, October 2019
  */
